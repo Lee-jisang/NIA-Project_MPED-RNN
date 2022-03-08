@@ -4,10 +4,11 @@
 ## 모델 출처
 https://github.com/RomeroBarata/skeleton_based_anomaly_detection
 
-## 1. 테스트 환경
+## 1. 테스트 환경 및 데이터
 - **OS** : Window 10
 - **Language** : Python, JSON
 - **Framework** : Visual Studio Code
+- **Data** : AIHUB 및 E2ON 이상행동 영상 데이터
 
 ## 2. 테스트 결과
 **논문 내용 참조 바람**   
