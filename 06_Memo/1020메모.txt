@@ -1,0 +1,170 @@
+
+Reconstruction Based:
+Camera 01:      AUROC   AUPR
+                0.5222  0.3682
+
+acc_score(MAX): 0.3029017615908354
+MAX = 648
+acc_score(1): 0.2728844699016535
+acc_score(0.02): 0.302847725062142
+acc_score(0.5): 0.3028747433264887
+acc_score(0.001): 0.302847725062142
+Prediction Based:
+Camera 01:      AUROC   AUPR
+                0.6009  0.3867
+
+acc_score(MAX): 0.34731978817680753
+MAX = 917
+acc_score(1): 0.34380741381173674
+acc_score(0.02): 0.3060899167837458
+acc_score(0.5): 0.3061169350480925
+acc_score(0.001): 0.3060899167837458
+Reconstruction + Prediction Based:
+Camera 01:      AUROC   AUPR
+                0.5598  0.3721
+
+acc_score(MAX): 0.3028747433264887
+MAX = 975
+acc_score(1): 0.3028747433264887
+acc_score(0.02): 0.302847725062142
+acc_score(0.5): 0.302847725062142
+acc_score(0.001): 0.302847725062142
+
+
+Reconstruction Based:
+Camera 02:      AUROC   AUPR
+                0.1889  0.3387
+
+acc_score(MAX): 0.5334833833500056
+MAX = 999
+acc_score(1): 0.5334833833500056
+acc_score(0.02): 0.498054907191286
+acc_score(0.5): 0.498054907191286
+acc_score(0.001): 0.498054907191286
+Prediction Based:
+Camera 02:      AUROC   AUPR
+                0.2475  0.3551
+
+acc_score(MAX): 0.5408747360231189
+MAX = 997
+acc_score(1): 0.5408747360231189
+acc_score(0.02): 0.5013893520062243
+acc_score(0.5): 0.5013893520062243
+acc_score(0.001): 0.5013893520062243
+Reconstruction + Prediction Based:
+Camera 02:      AUROC   AUPR
+                0.2172  0.3460
+
+acc_score(MAX): 0.498054907191286
+MAX = 0
+acc_score(1): 0.498054907191286
+acc_score(0.02): 0.498054907191286
+acc_score(0.5): 0.498054907191286
+acc_score(0.001): 0.498054907191286
+
+
+
+
+Reconstruction Based:
+Camera 03:      AUROC   AUPR
+                0.5821  0.5789
+
+acc_score(MAX): 0.5739511897159675
+MAX = 202
+acc_score(1): 0.5385512396923675
+acc_score(0.02): 0.5315823083543882
+acc_score(0.5): 0.5070383430046922
+acc_score(0.001): 0.5067606963378405
+Prediction Based:
+Camera 03:      AUROC   AUPR
+                0.6103  0.5864
+
+acc_score(MAX): 0.6429463864286309
+MAX = 457
+acc_score(1): 0.5074270483382847
+acc_score(0.02): 0.6108781964072522
+acc_score(0.5): 0.638087569758725
+acc_score(0.001): 0.5100924563400616
+Reconstruction + Prediction Based:
+Camera 03:      AUROC   AUPR
+                0.5928  0.5798
+
+acc_score(MAX): 0.5781436543854291
+MAX = 46
+acc_score(1): 0.5110364550073576
+acc_score(0.02): 0.5739789543826527
+acc_score(0.5): 0.5332204236888136
+acc_score(0.001): 0.5090096343393398
+
+
+
+
+Reconstruction Based:
+Camera 04:      AUROC   AUPR
+                0.0768  0.2652
+
+acc_score(MAX): 0.39348408584378836
+MAX = 0
+acc_score(1): 0.16555230010267197
+acc_score(0.02): 0.35301630230636316
+acc_score(0.5): 0.21926727268174193
+acc_score(0.001): 0.39348408584378836
+Prediction Based:
+Camera 04:      AUROC   AUPR
+                0.1103  0.2716
+
+acc_score(MAX): 0.39648911927478525
+MAX = 0
+acc_score(1): 0.2090752009616107
+acc_score(0.02): 0.3592767886209401
+acc_score(0.5): 0.24573660881977313
+acc_score(0.001): 0.39648911927478525
+Reconstruction + Prediction Based:
+Camera 04:      AUROC   AUPR
+                0.0957  0.2686
+
+acc_score(MAX): 0.39348408584378836
+MAX = 0
+acc_score(1): 0.20439235719830717
+acc_score(0.02): 0.37317506823930086
+acc_score(0.5): 0.2714546866000551
+acc_score(0.001): 0.39348408584378836
+
+
+
+Reconstruction Based:
+All Cameras     AUROC   AUPR
+                0.3352  0.3340
+
+Prediction Based:
+All Cameras     AUROC   AUPR
+                0.3812  0.3477
+
+Reconstruction + Prediction Based:
+All Cameras     AUROC   AUPR
+                0.3572  0.3399
+
+
+
+
+
+thresold 값을 validation 영상을통해서 thresold 값을 찾고 8대 1대 1
+
+종류별로 8대 1대 1로 나눠서'
+
+
+natural break y_hat자체가 합쳐져
+
+영상 별 프레임수를 알고있는데
+y_hat을 프레임개수별로 자르면 영상속데이터를얻을수 있지
+
+
+1~20
+
+21~87
+
+88~105
+
+106 118
+
+index error의 원인이 frame 밖에 없음

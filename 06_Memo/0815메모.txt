@@ -1,0 +1,63 @@
+사용한 데이터의 형식 구조를 확인하여야됨
+
+
+
+
+MPED-RNN 모델 깃허브 사이트
+-https://github.com/RomeroBarata/skeleton_based_anomaly_detection
+
+UCF-CRIME 데이터 세트는 25개 포인트
+-frame_index가 다다름
+
+
+해당 깃허브에 있는 데이터세트는 csv파일로 존재하며 프레임마다 17개포인트(x좌표, y좌표)
+HR-ShanghaiTech폴더-training폴더-trajectories폴더-00~12폴더-각폴더마다 프레임인덱스 다다름
+
+
+terminal 에서 학습진행
+
+conda activate tbad로 가상환경 활성화 후
+
+cd skeleton 폴더로이동후
+
+python train.py --gpu_ids 0 --gpu_memory 0.1 combined_model ./UCF-Crime/UCF-Crime_Assault/01 --video_resolution 320x240 --message_passing --reconstruct_original_data --multiple_outputs --multiple_outputs_before_concatenation --input_length 12 --rec_length 12 --pred_length 6 --reconstruct_reverse --cell gru --global_hidden 8 --local_hidden 16 --output_activation linear --optimiser adam --learning_rate 0.001 --loss mse --epochs 5 --batch_size 256 --global_normalisation robust --local_normalisation robust --out_normalisation robust
+학습 코드 실행
+
+
+
+
+
+
+
+
+
+
+
+frame_level_masks 제작
+
+이상행동이 발생되는 부분이 1
+person이 나와있는 부분에는 1을 채워넣고
+
+csv파일이 실수로되있으면 오류-> 실수를 지수로 바꾸면 오류해결
+
+frame_level_masks 재수정?-> 이상행동에 따른 mask 제작하려면?
+
+어케해야될까요
+
+
+MPED 이중분류만 가능한데-> 다중분류?
+
+
+정상과 이상의 분류
+
+
+이모델의 정상과 비정상의 구별단위 
+frame mask 형태이면 
+스켈레톤데이터의 완성도 유무가지고 판단하거나
+메뉴얼하게 봤을때 레이블링되서 분류가 가능한지
+프레임단위로 정상 비정상이 분류가 되는지
+코드를 수정해서 통합된 형태가 아닌 다양한형태의 성능기표로 출력되게
+
+마스크값도 특정한행위를 사용자가했을때 1로 세팅
+
+

@@ -1,0 +1,43 @@
+혹시 아까 학습에 사용하신 39개를 종류별로 나누면
+
+fight  4
+assault 7
+burglary 5
+vandalism 4
+swoon 2
+datefight 6
+kidnap 3
+drunken 4
+robbery 3
+datefight 1
+
+이렇게 나오는데
+각 10종류를 종류별로 csv파일로 학습시키는거 우선 맞을까요?
+
+XmlToNpy.py -> MPED-RNN 모델 평가에 사용되는 frame_level_mask 제작
+AI-Hub 이상행동 영상을 Xml파일로 확인하면 actionname(이상행동의 이름)별로
+star시작프레임과 end끝프레임으로 나누어져 있음을 확인 
+즉, 이상행동이 나타나는 부분을 프레임별로 나눌 수 있음
+
+JsonToCsv -> MPED-RNN 모델 학습에 사용할 CSV파일 제작
+
+MPED-RNN 
+
+train은 이상행동 영상을 프레임마다 나눈 json파일에서 person의 keypoint좌표(이차원 평면의 x,y좌표)를 추출하여 csv파일로 학습
+학습후 만들어진 가중치로 evaluate하는데
+evaluate 는 fram_level_masks(넘파이파일 형태로 이상행동이 일어나는 프레임엔 1 그외엔 0->평가지표)과 trajectories의 csv파일 이용
+
+궁금한 부분 evaluate에 사용된 trajectories 평가 동영상한개 마다 하나에 대응되는가?
+
+framelevel mask  0 ,1 여러개있어야됨
+0이나 1 처럼 한개의 클래스로 되어있으면 평가불가
+
+논문관련
+https://svip-lab.github.io/dataset/campus_dataset.html
+https://arxiv.org/pdf/1903.03295.pdf
+
+
+
+
+
+
