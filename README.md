@@ -8,7 +8,7 @@ https://github.com/RomeroBarata/skeleton_based_anomaly_detection
 - **OS** : Window 10
 - **Language** : Python, JSON
 - **Framework** : Visual Studio Code
-- **Data** : AIHUB 및 E2ON 이상행동 영상 데이터
+- **Data** : AIHUB 및 E2ON 이상행동 영상 데이터(서버 및 로컬에 )
 
 ## 2. 테스트 결과
 **논문 내용 참조 바람**   
