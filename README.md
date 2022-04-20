@@ -1,6 +1,8 @@
 # NIA-Project_MPED-RNN
 **스켈레톤 정보를 활용한 공공 보안용 CCTV의 이상행동 학습용 데이터 적합성 검증 연구**
 
+![image](https://user-images.githubusercontent.com/76837780/164228817-df96844a-e83d-4273-8266-57296a1aa6ad.png)
+
 ## 모델 출처
 https://github.com/RomeroBarata/skeleton_based_anomaly_detection
 
