@@ -21,7 +21,7 @@ https://github.com/RomeroBarata/skeleton_based_anomaly_detection
 이지상, 김경수, 이세림
 
 **협력기관**
-동국대학교, NIA
+동국대학교, NIA, E2ON
 
 
 
