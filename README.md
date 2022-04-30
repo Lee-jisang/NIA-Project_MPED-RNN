@@ -18,7 +18,8 @@ https://github.com/RomeroBarata/skeleton_based_anomaly_detection
 ## 3. 구성원 및 협력기관
 
 |**구성원**|
-|이지상| 김경수| 이세림|
+|---|---|---|
+|이지상|김경수|이세림|
 
 **협력기관**
 동국대학교, NIA
