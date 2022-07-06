@@ -13,7 +13,7 @@ https://github.com/RomeroBarata/skeleton_based_anomaly_detection
 - **Data** : AIHUB 및 E2ON 이상행동 영상 데이터
 
 ## 2. 테스트 결과
-**논문 내용 참조 바람**   
+[**논문 내용 참조 바람**](https://github.com/Lee-jisang/NIA-Project_MPED-RNN/blob/main/%ED%95%9C%EA%B5%AD%EC%A7%80%EB%8A%A5%EC%8B%9C%EC%8A%A4%ED%85%9C%ED%95%99%ED%9A%8C%20%EB%85%BC%EB%AC%B8.pdf)   
  
 ## 3. 구성원 및 협력기관
 
