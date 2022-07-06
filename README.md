@@ -24,4 +24,6 @@ https://github.com/RomeroBarata/skeleton_based_anomaly_detection
 동국대학교, NIA, E2ON
 
 
+## 느낀점
 
+- 학부 연구생으로서 참여한 프로젝트로서 절도, 폭력 등 이상행동에 대한 영상을 딥러닝 모델을 통하여 평가 결과를 검증하였습니다. 상당이 어려웠지만 요즘 트랜드인 AI에 대해 한걸음 다가갈수 있었습니다.
